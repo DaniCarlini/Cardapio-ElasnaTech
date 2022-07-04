@@ -1,0 +1,93 @@
+body {
+    background: rgb(186, 186, 247);
+    font-family: cursive;
+    text-align: center;
+    margin: auto;
+}
+
+#cardapio {
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+}
+
+.texto-central {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia;
+    color: blue;
+    background: whitesmoke;
+    height: 50px;
+    padding: 20px;
+    width: 600px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+
+.msg {
+    text-align: center;
+    font-size: 20px;
+    font-family: georgia;
+    color: white;
+}
+
+.Cafe {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia;
+    color: rgb(119, 153, 216);
+    text-shadow: 1px 1px 1px blue;
+}
+
+.coluna-esquerda {
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.Almoço {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia;
+    color: rgb(119, 153, 216);
+    text-shadow: 1px 1px 1px blue;
+}
+
+.coluna-central {
+    width: 300px;
+    height: 500px;
+    float: center;
+}
+
+.Lanche {
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia;
+    color: rgb(119, 153, 216);
+    text-shadow: 1px 1px 1px blue;
+}
+
+.coluna-direita {
+    width: 300px;
+    height: 500px;
+    float: right;
+}
+
+.sem-estilo {
+    list-style: none;
+    font-family: georgia;
+    color: rgb(18, 65, 153);
+    font-size: 15px;
+    text-align: left;
+}
+
+.bold {
+    font-family: georgia;
+    color: rgb(241, 244, 248);
+    font-size: 15px;
+    text-align: right;
+}
